@@ -12,6 +12,7 @@
 8. [Be Cautious of Using NullPointerException](#nulls)
 9. [Utilize Streams Properly](#streams)
 10. [Utilize Dependency Injection (DI)](#dependency)
+11. [Supplemental Resource](#supplement)
 
 <hr />
 
@@ -52,3 +53,9 @@
 <hr />
 
 ## 10. <a name="dependency">Utilize Dependency Injection (DI)</a>
+
+<hr />
+
+## 11. <a name="supplement">Supplemental Resource</a>
+
+<a href="https://github.com/chaseofthejungle/intro-to-java">Intro to Java Overview Guide</a>
