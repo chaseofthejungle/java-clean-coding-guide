@@ -29,6 +29,35 @@
 <hr />
 
 ## 4. <a name="classes">Keep Classes to the Point</a>
+  
+Classes should follow the Single Responsibility Principle (SRP): that is to say, they should 'have one job'. This is important for a variery of reasons, such as improving readability for oneself and other developers and clarifying the code's purpose.
+  
+<strong>Not a Great Idea:</strong>
+  
+```
+public class Bookstore {
+  // Customer logic
+  // Order logic
+  // Book logic
+  // ... other responsibility here...
+}
+```
+  
+<strong>Better Idea:</strong>
+  
+```
+public class Customer {
+  // Customer logic
+}
+  
+public class Order {
+  // Order logic
+}
+  
+public class Book {
+  // Book logic
+}
+```
 
 <hr />
 
