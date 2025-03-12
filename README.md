@@ -12,7 +12,7 @@
 8. [Be Cautious of Using NullPointerException](#nulls)
 9. [Utilize Streams Properly](#streams)
 10. [Utilize Dependency Injection (DI)](#dependency)
-11. [Supplemental Resource](#supplement)
+11. [Supplemental Resources](#supplement)
 
 <hr />
 
@@ -85,6 +85,7 @@ public class Book {
 
 <hr />
 
-## 11. <a name="supplement">Supplemental Resource</a>
+## 11. <a name="supplement">Supplemental Resources</a>
 
-<a href="https://github.com/chaseofthejungle/intro-to-java">Intro to Java Overview Guide</a>
+<a href="https://github.com/chaseofthejungle/intro-to-java">Intro to Java Overview Guide</a>  
+<a href="https://github.com/chaseofthejungle/java-quick-reference-guide">Java Quick Reference Guide</a>
