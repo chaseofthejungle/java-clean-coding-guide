@@ -22,6 +22,20 @@
 
 ## 2. <a name="documenting">Use Self-Documenting Variable Names</a>
 
+<em>Self-documenting</em> code is easy to understand simply by reading it. Its purpose becomes apparent without needing extensive commenting.
+
+<strong>Not a Great Idea:</strong>
+
+```
+String n = "Billy";
+```
+
+<strong>Better Idea:</strong>
+
+```
+String firstName = "Billy";
+```
+
 <hr />
 
 ## 3. <a name="methods">Keep Methods to the Point</a>
