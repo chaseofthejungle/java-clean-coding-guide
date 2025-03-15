@@ -77,6 +77,20 @@ public class Book {
 
 ## 5. <a name="constants">Choose Constants for Non-Changing Values...</a>
 
+By declaring <em>constants</em> instead of variables, it is clarified that a value is not to be updated. Furthermore, accidental changes to the data are prevented.
+
+<strong>Not a Great Idea:</strong>
+
+```
+int guesses = 5; 
+```
+
+<strong>Better Idea:</strong>
+
+```
+public static final int MAX_GUESSES = 5;
+```
+
 <hr />
 
 ## 6. <a name="enums">... and Use Enums with Constants</a>
