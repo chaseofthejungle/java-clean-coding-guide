@@ -9,7 +9,7 @@
 5. [Choose Constants for Non-Changing Values...](#constants)
 6. [... and Use Enums with Constants](#enums)
 7. [Handle Exceptions](#exceptions)
-8. [Be Cautious of Using NullPointerException](#nulls)
+8. [Be Cautious of NullPointerException](#nulls)
 9. [Utilize Streams Properly](#streams)
 10. [Utilize Dependency Injection (DI)](#dependency)
 11. [Supplemental Resources](#supplement)
@@ -101,7 +101,27 @@ public static final int MAX_GUESSES = 5;
 
 <hr />
 
-## 8. <a name="nulls">Be Cautious of Using NullPointerException</a>
+## 8. <a name="nulls">Be Cautious of NullPointerException</a>
+  
+<em>NullPointerException</em> is thrown when an uninitialized object is attempted to be accessed or modified.
+  
+<strong>Not a Great Idea:</strong>
+
+```
+String firstName = null;
+
+if (firstName.equals("Bob"))
+```
+
+<strong>Better Idea:</strong>
+
+```
+String firstName = null;
+
+if (StringUtils.isNotEmpty(firstName) && firstName.equals("Bob"))
+```
+
+Consider using `equalsIgnoreCase()` for conditional logic, if the value should be evaluated the same way regardless of lowercase or uppercase letter usage (e.g., if "Bob" and "bob" are to be handled the same way).
 
 <hr />
 
