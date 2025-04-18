@@ -1,26 +1,26 @@
 # Java Clean Coding Guide
 
-#### Table of Contents (this guide will include detailed sections on the following items)
+#### Table of Contents
 
-1. [Follow Naming Conventions](#conventions)
-2. [Use Self-Documenting Variable Names](#documenting)
-3. [Keep Methods to the Point](#methods)
-4. [Keep Classes to the Point](#classes)
-5. [Choose Constants for Non-Changing Values...](#constants)
-6. [... and Use Enums with Constants](#enums)
-7. [Handle Exceptions](#exceptions)
-8. [Be Cautious of NullPointerException](#nulls)
-9. [Utilize Streams Properly](#streams)
-10. [Utilize Dependency Injection (DI)](#dependency)
+1. [Tip #1: Follow Naming Conventions](#conventions)
+2. [Tip #2: Use Self-Documenting Variable Names](#documenting)
+3. [Tip #3: Keep Methods to the Point](#methods)
+4. [Tip #4: Keep Classes to the Point](#classes)
+5. [Tip #5: Choose Constants for Non-Changing Values...](#constants)
+6. [Tip #6: ... and Use Enums with Constants](#enums)
+7. [Tip #7: Handle Exceptions](#exceptions)
+8. [Tip #8: Be Cautious of NullPointerException](#nulls)
+9. [Tip #9: Utilize Streams Properly](#streams)
+10. [Tip #10: Utilize Dependency Injection (DI)](#dependency)
 11. [Supplemental Resources](#supplement)
 
 <hr />
 
-## 1. <a name="conventions">Follow Naming Conventions</a>
+## 1. <a name="conventions">Tip #1: Follow Naming Conventions</a>
 
 <hr />
 
-## 2. <a name="documenting">Use Self-Documenting Variable Names</a>
+## 2. <a name="documenting">Tip #2: Use Self-Documenting Variable Names</a>
 
 <em>Self-documenting</em> code is easy to understand simply by reading it. Its purpose becomes apparent without needing extensive commenting.
 
@@ -38,11 +38,11 @@ String firstName = "Billy";
 
 <hr />
 
-## 3. <a name="methods">Keep Methods to the Point</a>
+## 3. <a name="methods">Tip #3: Keep Methods to the Point</a>
 
 <hr />
 
-## 4. <a name="classes">Keep Classes to the Point</a>
+## 4. <a name="classes">Tip #4: Keep Classes to the Point</a>
   
 Classes should follow the Single Responsibility Principle (SRP): that is to say, they should 'have one job'. This is important for a variery of reasons, such as improving readability for oneself and other developers and clarifying the code's purpose.
   
@@ -75,7 +75,7 @@ public class Book {
 
 <hr />
 
-## 5. <a name="constants">Choose Constants for Non-Changing Values...</a>
+## 5. <a name="constants">Tip #5: Choose Constants for Non-Changing Values...</a>
 
 By declaring <em>constants</em> instead of variables, it is clarified that a value is not to be updated. Furthermore, accidental changes to the data are prevented.
 
@@ -93,15 +93,15 @@ public static final int MAX_GUESSES = 5;
 
 <hr />
 
-## 6. <a name="enums">... and Use Enums with Constants</a>
+## 6. <a name="enums">Tip #6: ... and Use Enums with Constants</a>
 
 <hr />
 
-## 7. <a name="exceptions">Handle Exceptions</a>
+## 7. <a name="exceptions">Tip #7: Handle Exceptions</a>
 
 <hr />
 
-## 8. <a name="nulls">Be Cautious of NullPointerException</a>
+## 8. <a name="nulls">Tip #8: Be Cautious of NullPointerException</a>
   
 <em>NullPointerException</em> is thrown when an uninitialized object is attempted to be accessed or modified.
   
@@ -125,15 +125,15 @@ Consider using `equalsIgnoreCase()` for conditional logic, if the value should b
 
 <hr />
 
-## 9. <a name="streams">Utilize Streams Properly</a>
+## 9. <a name="streams">Tip #9: Utilize Streams Properly</a>
 
 <hr />
 
-## 10. <a name="dependency">Utilize Dependency Injection (DI)</a>
+## 10. <a name="dependency">Tip #10: Utilize Dependency Injection (DI)</a>
 
 <hr />
 
 ## 11. <a name="supplement">Supplemental Resources</a>
 
-<a href="https://github.com/chaseofthejungle/intro-to-java">Intro to Java Overview Guide</a>  
-<a href="https://github.com/chaseofthejungle/java-quick-reference-guide">Java Quick Reference Guide</a>
+* <a href="https://github.com/chaseofthejungle/intro-to-java">Intro to Java Overview Guide</a>  
+* <a href="https://github.com/chaseofthejungle/java-quick-reference-guide">Java Quick Reference Guide</a>
