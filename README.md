@@ -135,5 +135,6 @@ Consider using `equalsIgnoreCase()` for conditional logic, if the value should b
 
 ## 11. <a name="supplement">Supplemental Resources</a>
 
-* <a href="https://github.com/chaseofthejungle/intro-to-java">Intro to Java Overview Guide</a>  
-* <a href="https://github.com/chaseofthejungle/java-quick-reference-guide">Java Quick Reference Guide</a>
+* *[Codiva (Online Code Compiler)](https://www.codiva.io/)*  
+* *<a href="https://github.com/chaseofthejungle/intro-to-java">Intro to Java Overview Guide</a>*  
+* *<a href="https://github.com/chaseofthejungle/java-quick-reference-guide">Java Quick Reference Guide</a>*
